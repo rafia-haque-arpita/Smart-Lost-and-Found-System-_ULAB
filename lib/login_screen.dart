@@ -84,3 +84,17 @@ class LoginnScreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                  TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'Forgot Password?',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      'Don\'t have an account? ',
+                      style: TextStyle(color: Colors.white),
+                    ),
