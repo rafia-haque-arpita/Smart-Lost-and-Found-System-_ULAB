@@ -134,3 +134,19 @@ class LoginScreen extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
+        child: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                SizedBox(height: 100),
+                Text(
+                  "Ulab Smart Lost and Found System \n Management System",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black,
+                  ),
+                ),
