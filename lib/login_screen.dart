@@ -171,3 +171,26 @@ class LoginScreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                SizedBox(height: 20),
+                TextField(
+                  obscureText: true,
+
+                  decoration: InputDecoration(
+                    hintText: "Password",
+                    filled: true,
+                    prefixIcon: Icon(Icons.password),
+                    fillColor: Colors.white.withOpacity(0.5),
+                    hintStyle: TextStyle(color: Colors.black),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10),
+                      borderSide: BorderSide(color: Colors.white),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10),
+                      borderSide: BorderSide(color: Colors.white),
+                    ),
+                  ),
+                ),
