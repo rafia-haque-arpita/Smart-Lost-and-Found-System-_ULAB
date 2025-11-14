@@ -98,3 +98,24 @@ class LoginnScreen extends StatelessWidget {
                       'Don\'t have an account? ',
                       style: TextStyle(color: Colors.white),
                     ),
+                      TextButton(
+                      onPressed: () {},
+                      child: Text(
+                        'Sign Up',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(height: 20),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
