@@ -194,3 +194,21 @@ class LoginScreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                  SizedBox(height: 20),
+                SizedBox(
+                  width: 200,
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text("Login", style: TextStyle(color: Colors.black)),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.blue,
+                    ),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'Forgot Password?',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
