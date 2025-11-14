@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+import 'package:ulab_smart_lost_and_found_system/auth/login_screen.dart';
+
+class SignUpScreen extends StatelessWidget {
+  const SignUpScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/background.jpeg'),
+            fit: BoxFit.cover,
+          ),
+        ),
