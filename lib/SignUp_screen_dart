@@ -96,3 +96,23 @@ class SignUpScreen extends StatelessWidget {
                 ),
                 TextField(
                   obscureText: true,
+
+                   decoration: InputDecoration(
+                    hintText: "Enter Your Password Again",
+                    filled: true,
+                    prefixIcon: Icon(Icons.password),
+                    fillColor: Colors.white.withOpacity(0.5),
+                    hintStyle: TextStyle(color: Colors.black),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10),
+                      borderSide: BorderSide(color: Colors.white),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10),
+                      borderSide: BorderSide(color: Colors.white),
+                    ),
+                  ),
+                ),
